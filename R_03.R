@@ -106,8 +106,8 @@ a = boxplot(BOD$demand)
 a
 
 # • Q3. 위에서 그린 boxplot의 요약통계량, 중앙값, 3분위수를 추출해보세요
-x$stats[,1]
+a$stats[,1]
 
-x$stats[,1][3]
+a$stats[,1][3]
 
-x$stats[,1][4]
+a$stats[,1][4]
